@@ -25,7 +25,7 @@ export const StaticPage: React.FC<StaticPageProps> = ({ title, type }) => {
             <ul className="space-y-2 mb-6">
               <li><strong>Email:</strong> support@electro.com</li>
               <li><strong>Téléphone:</strong> +237 692314218</li>
-              <li><strong>Adresse:</strong> 123 Rue Principale, Abidjan, Côte d'Ivoire</li>
+              <li><strong>Adresse:</strong> Douala, Cameroun</li>
             </ul>
             <p>N'hésitez pas à utiliser le ChatBot en bas à droite pour une réponse immédiate !</p>
           </>
