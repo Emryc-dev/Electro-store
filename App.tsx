@@ -226,7 +226,7 @@ const Footer = () => (
             <MapPin size={18} /> Douala, Cameroun
           </div>
           <div className="flex gap-4 text-gray-400 mt-2">
-            <Phone size={18} /> +225 07 00 00 00
+            <Phone size={18} /> +237 692314218
           </div>
         </div>
         
