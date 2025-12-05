@@ -9,13 +9,13 @@ const HeroSlider = () => {
   const slides = [
     {
       id: 1,
-      image: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+      image: "/img/banner-laptop.jpg",
       title: "Laptop Collection",
       subtitle: "Save up to 40% off"
     },
     {
       id: 2,
-      image: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+      image: "/img/casque.jpg",
       title: "New Accessories",
       subtitle: "Discover the future"
     }
@@ -345,7 +345,7 @@ export const Home = () => {
       <div className="container mx-auto px-4 mt-16">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
            <div className="relative rounded-2xl overflow-hidden group h-64 bg-gray-100">
-             <img src="../img/mackbook.jpg" alt="Banner" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+             <img src="/img/mackbook.jpg" alt="Banner" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
              <div className="absolute inset-0 bg-black/30 flex flex-col justify-center p-8">
                <h3 className="text-white text-3xl font-bold mb-2">MacBook Pro</h3>
                <p className="text-gray-200 mb-4">La puissance à l'état pur</p>
@@ -353,7 +353,7 @@ export const Home = () => {
              </div>
            </div>
            <div className="relative rounded-2xl overflow-hidden group h-64 bg-gray-100">
-             <img src="https://images.unsplash.com/photo-1616348436168-de43ad0db179?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Banner" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+             <img src="/img/iphone.jpg" alt="Banner" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
              <div className="absolute inset-0 bg-secondary/80 flex flex-col justify-center p-8">
                <h3 className="text-white text-3xl font-bold mb-2">Offre Spéciale</h3>
                <p className="text-white mb-4">Jusqu'à -50% sur les accessoires</p>
